@@ -42,8 +42,7 @@ jobs:
     
     - name: Create a temporary artifact downloads folder
       run: mkdir downloads
-      run: cd downloads
-	   cd ..
+      
     - name: Upload artifact 
       uses: actions/upload-artifact@master
       with:
