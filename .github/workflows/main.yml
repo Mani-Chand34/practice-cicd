@@ -47,4 +47,4 @@ jobs:
       uses: actions/upload-artifact@master
       with:
           name: dev-artifact
-          path: target/*.jar
+          path: src/*.jar
